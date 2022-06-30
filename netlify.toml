@@ -9,5 +9,5 @@
   package = "@algolia/netlify-plugin-crawler"
     [plugins.inputs]
     branches = ['main']
-    disabled = true
+    disabled = false
     renderJavaScript = false
