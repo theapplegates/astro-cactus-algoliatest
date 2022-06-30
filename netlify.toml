@@ -3,3 +3,11 @@
 [build]
   command = 'npx pnpm i --store=node_modules/.pnpm-store && npm run build'
   publish = 'dist'
+  
+  
+  [[plugins]]
+  package = "@algolia/netlify-plugin-crawler"
+    [plugins.inputs]
+    branches = ['main']
+    disabled = true
+    renderJavaScript = false
